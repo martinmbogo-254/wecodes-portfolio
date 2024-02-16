@@ -86,6 +86,61 @@
     background-position: center;
     background-size: cover;
 }
+.services{
+    min-height: 450px;
+    margin-bottom: 20px;
+
+}
+.services .row{
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.services span{
+    color: red;
+
+}
+.services .card{
+    height: 230px !important;
+}
+.services .col-md-4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.services .card-body h5{
+    color: rgb(3, 51, 43) !important;
+    text-align: center;
+}
+.services .card-body p{
+    color: rgb(3, 51, 43) !important;
+    text-align: start;
+    line-height: 1.5rem;
+}
+.services .card-image{
+    height: 130px;
+    width: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    margin-left: 30%;
+    margin-top: -16%;
+    border-radius: 50%;
+
+}
+.services img{
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+
+}
+.services .card{
+    margin-top: 10px !important;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 0 19px 38px -4px rgba(0,0,0,0.3), 0 12px 12px -2px rgba(0,0,0,0.22);
+    max-height: 300px;
+}
 .whyus{
     min-height: 150px;
     display: flex;
@@ -94,11 +149,11 @@
     flex-wrap: wrap;
     color:white;
     align-items: center;
-  
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)) , url("../imgs/pexels-pixabay-356056.jpg");
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url("../imgs/pexels-pixabay-356056.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .whyus button{
     height: 50px;
@@ -111,8 +166,18 @@
     align-self: center;
 }
 .portfolio{
+    margin-top: 50px;
     min-height: 450px;
-    border: 2px solid ;
+    /* border: 2px solid ; */
+}
+.portfolio h4{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.portfolio span{
+    color: red;
 }
 .portfolio img {
     border-top-left-radius: 20px;
@@ -128,6 +193,26 @@
     align-content: center;
     padding: 10px;
 }
+.viewmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.viewmore a{
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    background: red;
+    border-radius: 47px;
+    border: none;
+    color: white;
+    align-self: center;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
 .clients{
     min-height: 450px;
     border: 2px solid ;
@@ -138,6 +223,34 @@
 }
 .footer{
     min-height: 100px;
-    border: 2px solid red;
     padding: 30px;
+    background: rgb(2, 32, 27);
+}
+.footer ul li {
+    list-style:circle;
+
+}
+.footer h5{
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding: 10px;
+
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(192, 168, 168);
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+.copyright a{
+    color: red;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: red;
+    text-decoration: none;
 }
