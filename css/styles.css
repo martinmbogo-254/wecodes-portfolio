@@ -13,17 +13,32 @@
     margin-left: 50% !important;
     justify-content:flex-end;
 }
+.navigation .contactus{
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 5px;
+    
+}
+.navigation .contactus:hover{
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 5px;
+    background: white ;
+    color: rgb(2, 32, 27) !important;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
 .custom-bg{
     background: rgb(2, 32, 27);
     color: white;
 }
 .mycontainer{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 100%;
 }
 .active{
     border-bottom: 2px solid white !important;
@@ -336,4 +351,65 @@
 }
 .serviceshero span{
     color: red;
+}
+.ourservices{
+    min-height: 450px;
+    margin-bottom: 20px;
+
+}
+.ourservices .row{
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.ourservices span{
+    color: red;
+
+}
+.ourservices .card{
+    height: 270px !important;
+}
+.ourservices .col-md-4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.ourservices .card-body h5{
+    color: rgb(3, 51, 43) !important;
+    text-align: center;
+}
+.ourservices .card-body p{
+    color: rgb(3, 51, 43) !important;
+    text-align: start;
+    line-height: 1.5rem;
+}
+.ourservices .card-image{
+    height: 130px;
+    width: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    margin-top: -16%;
+  
+
+}
+.ourservices img{
+    height: 130px;
+    width: 130px;
+
+}
+.ourservices .software{
+   align-self: center;
+}
+.ourservices .ai{
+    align-self: flex-end;
+ }
+ 
+
+.ourservices .card{
+    margin-top: 10px !important;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 0 19px 38px -4px rgba(0,0,0,0.3), 0 12px 12px -2px rgba(0,0,0,0.22);
+    max-height: 300px;
 }
