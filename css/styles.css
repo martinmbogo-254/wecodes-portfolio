@@ -74,6 +74,9 @@
     line-height: 10px;
     height: 300px;
 }
+.hero img{
+    height: 450px;
+}
 
 .whoweare{
     min-height: 450px;
@@ -169,15 +172,19 @@
     height: 50px;
     width: 200px;
     text-decoration: none;
-    border: 2px solid red !important;
+    border: 2px solid red ;
     background-color: transparent;
     border-radius: 47px;
     color: white;
     align-self: center;
-    /* padding-top: 10px; */
-    /* padding: 15px; */
-    /* margin: 10px; */
     text-align: center;
+
+}
+.services .viewmore a:hover{
+    color: rgb(3, 51, 43);
+    background: white !important;
+    border: 2px solid rgb(3, 51, 43);
+    
 
 }
 .whyus{
@@ -234,9 +241,11 @@
 }
 .viewmore{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    justify-content: center;
 
 }
 .viewmore a{
@@ -247,6 +256,20 @@
     border-radius: 47px;
     border: none;
     color: white;
+    align-self: center;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.viewmore a:hover{
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 47px;
+    border: 2px solid rgb(3, 51, 43);
+    color: rgb(3, 51, 43);
     align-self: center;
     padding: 15px;
     margin: 10px;
@@ -352,9 +375,15 @@
 .serviceshero span{
     color: red;
 }
+.ourservices .title{
+    font-weight: bold;
+    /* font-family:; */
+}
 .ourservices{
     min-height: 450px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
 
 }
 .ourservices .row{
