@@ -9,6 +9,10 @@
   line-height: 1.9px;
   gap: 2px;
 }
+.navbar-nav{
+    margin-left: 50% !important;
+    justify-content:flex-end;
+}
 .custom-bg{
     background: rgb(2, 32, 27);
     color: white;
