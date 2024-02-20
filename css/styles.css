@@ -646,3 +646,7 @@
 .portfoliohero span{
     color: red;
 }
+.technologies span{
+    color:red;
+    font-weight: 700;
+}
